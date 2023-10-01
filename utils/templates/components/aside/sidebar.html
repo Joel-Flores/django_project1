@@ -1,0 +1,10 @@
+{% load components %}
+<div class="py-4 text-gray-500 dark:text-gray-400">
+  {% aside_title name='perfil' %}
+  {% aside_principal_menu title='home' %}
+  <ul>
+    {% aside_li_simple url='home:home' title='opcion1' %}
+    {% aside_li_simple url='home:home' title='opcion2' %}
+  </ul>
+  {% aside_button url='home:home' title='botton para registrar usuarios' %}
+</div>
